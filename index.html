@@ -9,19 +9,24 @@
 </head>
 
 <body>
-    
-    <div id="all">
-        <h1>Churrascômetro</h1>
+        <!--Caixa dos calc-->
+    <div id="container">
+        <h1 class="title">Churrascômetro</h1>
         
         <br>
 
-            <input type="number" class="input" id="adultos" placeholder="Adultos">
-            <br>
-            <input type="number" class="input" id="criancas" placeholder="Crianças">
-            <br>
-            <input type="number" class="input" id="horas" placeholder="Duração (h)">
-            <br>
-            <input type="submit" class="input" id="submit" placeholder="Calcular">
+            <input type="number" class="input" id="adultos" name="adultos" placeholder="Adultos">
+  
+            <input type="number" class="input" id="criancas" name="criancas" placeholder="Crianças">
+     
+            <input type="number" class="input" id="horas" name="horas" placeholder="Duração (h)">
+        
+            <button onclick="calcular()" class="calcular">Calcular</button>
+                <br>
+
+                <div id="resultado">
+
+                </div>
 
     </div>
 
