@@ -22,6 +22,16 @@ body{
     color: white;;
 }
 
+#resultado{
+    max-width: 300px;
+    background-color: #ffb914  ;
+    display: inline-block;
+    margin-left: 60%;
+    padding: 20px;
+    border-radius: 15px;
+    display: none;
+}
+
 .input{
     width: 100%;
     margin-bottom: 5px;

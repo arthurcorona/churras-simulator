@@ -19,9 +19,9 @@
         let criancas = inputCriancas.value
         let horas = inputHoras.value
 
-        let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas);
-        let qtdTotalCerveja = cervejaPP(horas) * adultos;
-        let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas);
+        let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas)
+        let qtdTotalCerveja = cervejaPP(horas) * adultos
+        let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
 
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarne/1000)} Kg de Carne`
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja/355)} Latas de Cerveja`
@@ -29,6 +29,7 @@
 
 
     }
+
 
         //calculando as horas de churras
     function carnePP(horas){
@@ -59,3 +60,14 @@
             return 1000
             }
     }
+
+    // tentando fazer o botao aparecer depois
+    
+    function openResult(){
+
+        var rslt = document.getElementById("resultado")
+        rslt.onclick = rslt.style.display= "block"
+    }
+
+
+
