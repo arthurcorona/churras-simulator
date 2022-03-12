@@ -4,15 +4,15 @@
 }
 
 body{
-    background-color: chocolate;
+    background-color: #8a0015;
     background-size: cover;
 }
 
 #container{
     max-width: 300px;
     margin-top: 200px;
-    margin-left: 42.5%;
-    background-color: rgba(53, 0, 245, 0.7);
+    margin-left: 100px;
+    background-color: #fc913a;
     display: inline-block;
     padding: 20px;
     border-radius: 15px;
