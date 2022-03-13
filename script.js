@@ -1,6 +1,7 @@
 // carne - 400g p/ pessoa || +6 hrs 650g
 // cerveja - 1200ml p/ pessoa || +6hrs 2000ml
 // refri/água - 1000ml p/pessoa || +6hrs 1500ml
+// 1500 de carvao p/ pessoa
 
 // crianças valem por 0,5
 
@@ -22,10 +23,13 @@
         let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas)
         let qtdTotalCerveja = cervejaPP(horas) * adultos
         let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
+        let qtdTotalCarvao = carvaoPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
+
 
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarne/1000)} Kg de Carne`
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja/355)} Latas de Cerveja`
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas/1000)} L de Refrigerantes/Sucos`
+        resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarvao/1000)} Kg de Carvão`
 
 
     }
@@ -61,8 +65,16 @@
             }
     }
 
-    // tentando fazer o botao aparecer depois
+    function carvaoPP(carnePP){
+
     
+            return 1300
+        
+       
+    }
+
+    // tentando fazer o botao aparecer depois
+
     function openResult(){
 
         var rslt = document.getElementById("resultado")
