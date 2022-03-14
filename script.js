@@ -31,6 +31,10 @@
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas/1000)} L de Refrigerantes/Sucos`
         resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarvao/1000)} Kg de Carvão`
 
+        // fazer aparecer o resultado
+        
+        var rslt = document.getElementById("resultado")
+        rslt.onclick = rslt.style.display= "block"
 
     }
 
@@ -77,8 +81,7 @@
 
     function openResult(){
 
-        var rslt = document.getElementById("resultado")
-        rslt.onclick = rslt.style.display= "block"
+       
     }
 
 
