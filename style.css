@@ -4,22 +4,21 @@
 }
 
 body{
-    background-color: white;
+    background-color: #fcab10;
     background-size: cover;
 }
 
 #boxcalc{
     width: 20%;
     height: 100vh;
-    background-color: #ffb914;
+    background-color: #fc7f03;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 50px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 78%;
-    position: relative;
+    margin-left: 75%;
 }
 
 #boxcalc, input{
@@ -33,13 +32,8 @@ body{
 
 #resultado{
     max-width: 300px;
-    background-color: #ffb914  ;
     padding: 20px;
-    border-bottom-right-radius: 15px;
-    border-top-left-radius: 15px;
     display: none;
-    position: absolute;
-    margin-left: 0px;
 }
 
 .input{
@@ -49,8 +43,17 @@ body{
     height: 40px;
     text-align: center;
 }
-
-
+ #calcular{
+    width: 100%;
+    margin-bottom: 5px;
+    display: block;
+    height: 40px;
+    text-align: center;
+    border-radius: 15px;
+ }
+ #calcular:hover {
+     background-color: #ffc300;
+ }
 
 @media screen and (max-width: 500px) {
 
