@@ -12,6 +12,11 @@
 
     <div id="container"> 
 
+        <!--topo-->
+        <div id="">
+        </div>
+
+
         <!--Caixa dos calc-->
     <div id="boxcalc">
         <h1 class="title">Churrascômetro</h1>
@@ -19,20 +24,34 @@
         <h3>Gostaria de saber o quanto de carne, cerveja e outras bebidas irá precisar para fazer aquele curras?? Basta colocar as informações </h3>
         <br>
 
+            <h3>Quantidade de Adultos</h3>
+            <br>
+            
             <input type="number" class="input" id="adultos" name="adultos" placeholder="Adultos">
-  
+            <br>  
+
+            <h3>Quantidade de Crianças</h3>
+            <br>
             <input type="number" class="input" id="criancas" name="criancas" placeholder="Crianças">
-     
+            <br>    
+           
+            <h3>Quantidade de Horas</h3>
+            
+            <br>
+           
             <input type="number" class="input" id="horas" name="horas" placeholder="Duração (h)">
         
-            <button onclick="calcular()" class="calcular">Calcular</button>
-                <br>
+            <button onclick="result()" class="calcular">Calcular</button>
+            <br>
+
+
+                <div id="resultado">
+                    <h2>Você irá precisar de</h2>
+            </div>
 
     </div>
 
-                <div id="resultado">
-                        <h2>Você irá precisar de </h2>
-                </div>
+                
 
     </div>
 

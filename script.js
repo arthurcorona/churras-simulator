@@ -13,7 +13,7 @@
     let resultado = document.getElementById("resultado")
 
         //calculando a carne por pessoa
-    function calcular(){
+    function result(){
         console.log("calculando...");
 
         let adultos = inputAdultos.value
@@ -26,10 +26,10 @@
         let qtdTotalCarvao = carvaoPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
 
 
-        resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarne/1000)} Kg de Carne`
-        resultado.innerHTML += `<p>${Math.ceil(qtdTotalCerveja/355)} Latas de Cerveja`
-        resultado.innerHTML += `<p>${Math.ceil(qtdTotalBebidas/1000)} L de Refrigerantes/Sucos`
-        resultado.innerHTML += `<p>${Math.ceil(qtdTotalCarvao/1000)} Kg de Carvão`
+        resultado.innerHTML += `<p><img src="./assets/meat.png" type="image/png" width="20px"></img> ${Math.ceil(qtdTotalCarne/1000)} Kg de Carne`
+        resultado.innerHTML += `<p><img src="./assets/beer.png" type="image/png" width="20px"></img> ${Math.ceil(qtdTotalCerveja/355)} Latas de Cerveja`
+        resultado.innerHTML += `<p><img src="./assets/soda.png" type="image/png" width="20px"></img> ${Math.ceil(qtdTotalBebidas/1000)} L de Refrigerantes/Sucos`
+        resultado.innerHTML += `<p><img src="./assets/coal.png" type="image/png" width= "20px"></img> ${Math.ceil(qtdTotalCarvao/1000)} Kg de Carvão`
 
         // fazer aparecer o resultado
         
@@ -77,12 +77,6 @@
        
     }
 
-    // tentando fazer o botao aparecer depois
-
-    function openResult(){
-
-       
-    }
 
 
 
