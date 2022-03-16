@@ -8,6 +8,14 @@ body{
     background-size: cover;
 }
 
+#conteudo{
+    display: block;
+    overflow: hidden;
+    word-spacing: 0px;
+    box-sizing: border-box;
+    
+}
+
 #boxcalc{
     width: 20%;
     height: 100vh;
@@ -44,7 +52,7 @@ body{
     text-align: center;
 }
  #calcular{
-    width: 100%;
+    width: 20%;
     margin-bottom: 5px;
     display: block;
     height: 40px;
