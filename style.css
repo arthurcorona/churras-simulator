@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    
+    position: relative;
 }
 
 #conteudo{
@@ -20,25 +20,40 @@ body{
     
 }
 
-#nocalc{
-    margin-top: 100px;
-    margin-left: 100px;
+#nocalc h1{
+    margin-left: 200px;
+    margin-top: 30px;
 }
 
-#nocalc h1 {
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 100px;
-  }
+#nocalc p{
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+#nocalc h2{
+    color: white;
+
+}
   
 #nocalc img {
     max-width: 100%;
-    width: 700px;
-    
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
   }
+
+#boxcalc, input{
+    border-radius: 15px;
+    
+}
 
 #boxcalc{
     width: 20%;
-    height: 100vh;
+    height: 865px;
     background-color: #fc7f03;
     display: flex;
     align-items: center;
@@ -47,13 +62,8 @@ body{
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     float: right;
-    position: relative;
+    margin-right: 5px;
     margin-top: 0px;
-}
-
-#boxcalc, input{
-    border-radius: 15px;
-    
 }
 
 .title{
