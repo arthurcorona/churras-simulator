@@ -4,8 +4,12 @@
 }
 
 body{
-    background-color: #fcab10;
+    background-color: white;
     background-size: cover;
+}
+
+#container{
+    
 }
 
 #conteudo{
@@ -15,6 +19,22 @@ body{
     box-sizing: border-box;
     
 }
+
+#nocalc{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#nocalc h1 {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+  }
+  
+#nocalc img {
+    max-width: 100%;
+    width: 700px;
+    
+  }
 
 #boxcalc{
     width: 20%;
@@ -26,7 +46,9 @@ body{
     padding: 50px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 75%;
+    float: right;
+    position: relative;
+    margin-top: 0px;
 }
 
 #boxcalc, input{
