@@ -31,14 +31,15 @@
         resultado.innerHTML += `<p><img src="./assets/soda.png" type="image/png" width="20px"></img> ${Math.ceil(qtdTotalBebidas/1000)} L de Refrigerantes/Sucos`
         resultado.innerHTML += `<p><img src="./assets/coal.png" type="image/png" width= "20px"></img> ${Math.ceil(qtdTotalCarvao/1000)} Kg de Carvão`
 
-        // fazer aparecer o resultado
+        // alerta de preencher os campos
         
         var rslt = document.getElementById("resultado")
         rslt.onclick = rslt.style.display= "block"
 
         if(adultos <= 0, criancas <= 0, horas <= 0)
-        alert("Preencha os campos corretamente!")
+        alert("Atualize a página e preencha os campos corretamente!")
         
+
     }
 
 
@@ -80,8 +81,6 @@
        
     }
 
-    //Alerta de preencher os campos
-
-
+   
 
 
