@@ -12,6 +12,10 @@ body{
     display: none;
 }
 
+#imgmobile{
+    display: none;
+}
+
 #container{
     position: relative;
 }
@@ -125,6 +129,12 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
     
     #mobile{
         display: inline-block;
+        margin-left: 35%;
+    }
+
+    #imgmobile{
+        display: inline-block;
+        width: 300px;
 
     }
 
@@ -141,58 +151,29 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
         
     }
 
-    #nocalc h1{
-        margin-top: 30px;
-    }
-    
-    #nocalc p{
-        margin-top: 5px;
-        font-size: large;
-    }
-    
-    #nocalc h2{
-        color: white;
-    
-    }
-
     #nocalc{
-        align-items: center;
+        display: none;
 
     }
-      
-    #nocalc img {
-        max-width: 100%;
-        width: 700px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 10%;
-        margin-top: 10%;
-      }
-
-
-    
+        
     #boxcalc, input{
         border-radius: 15px;
         
     }
     
     #boxcalc{
-        width: 250px;
+        width: 220px;
         height: 700px;
         background-color: #fc7f03;
         display: flex;
         align-items: center;
-        flex-direction: column;
         padding: 50px;
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 100px;
+        margin-top: 30px;
         
     }
     
     .logoc{
-        width: 100%;
+        width: 130%;
 
     }
 
@@ -214,7 +195,7 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
         text-align: center;
     }
      #calcular{
-        width: 30%;
+        width: 50%;
         margin-bottom: 5px;
         display: block;
         height: 40px;
