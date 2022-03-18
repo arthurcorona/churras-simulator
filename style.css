@@ -8,6 +8,10 @@ body{
     background-size: cover;
 }
 
+#mobile{
+    display: none;
+}
+
 #container{
     position: relative;
 }
@@ -94,10 +98,132 @@ body{
  #calcular:hover {
      background-color: #ffc300;
  }
+/*hjnfdiousahybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfujskiafnhsau
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnf
+ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloakufnho*/
 
-@media screen and (max-width: 500px) {
+ 
 
-    #boxcalc{
-    background-size: cover;
+@media screen and (max-width: 600px) {
+
+    body{
+        background-color: white;
+        background-size: cover;
     }
+    
+    #mobile{
+        display: inline-block;
+
+    }
+
+    #container{
+        position: relative;
+        align-items: center;
+    }
+    
+    #conteudo{
+        display: block;
+        overflow: hidden;
+        word-spacing: 0px;
+        box-sizing: border-box;
+        
+    }
+
+    #nocalc h1{
+        margin-top: 30px;
+    }
+    
+    #nocalc p{
+        margin-top: 5px;
+        font-size: large;
+    }
+    
+    #nocalc h2{
+        color: white;
+    
+    }
+
+    #nocalc{
+        align-items: center;
+
+    }
+      
+    #nocalc img {
+        max-width: 100%;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 10%;
+      }
+
+
+    
+    #boxcalc, input{
+        border-radius: 15px;
+        
+    }
+    
+    #boxcalc{
+        width: 250px;
+        height: 700px;
+        background-color: #fc7f03;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 100px;
+        
+    }
+    
+    .logoc{
+        width: 100%;
+
+    }
+
+    .title{
+        color: white;
+    }
+    
+    #resultado{
+        max-width: 300px;
+        padding: 20px;
+        display: none;
+    }
+    
+    .input{
+        width: 100%;
+        margin-bottom: 5px;
+        display: block;
+        height: 40px;
+        text-align: center;
+    }
+     #calcular{
+        width: 30%;
+        margin-bottom: 5px;
+        display: block;
+        height: 40px;
+        text-align: center;
+        border-radius: 15px;
+        padding: 5px;
+     }
+     #calcular:hover {
+         background-color: #ffc300;
+     }
+
 }
