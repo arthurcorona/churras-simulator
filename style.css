@@ -20,14 +20,6 @@ body{
     position: relative;
 }
 
-#conteudo{
-    display: block;
-    overflow: hidden;
-    word-spacing: 0px;
-    box-sizing: border-box;
-    
-}
-
 #nocalc h1{
     margin-left: 200px;
     margin-top: 30px;
@@ -61,7 +53,7 @@ body{
 
 #boxcalc{
     width: 20%;
-    height: 865px;
+    height: 900px;
     background-color: #fc7f03;
     display: flex;
     align-items: center;
@@ -135,21 +127,10 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
     #imgmobile{
         display: inline-block;
         width: 300px;
-
+        margin-top: 30px;
     }
 
-    #container{
-        position: relative;
-        align-items: center;
-    }
-    
-    #conteudo{
-        display: block;
-        overflow: hidden;
-        word-spacing: 0px;
-        box-sizing: border-box;
-        
-    }
+
 
     #nocalc{
         display: none;
@@ -169,7 +150,7 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
         align-items: center;
         padding: 50px;
         margin-top: 30px;
-        
+        margin-bottom: 30px;
     }
     
     .logoc{
@@ -195,7 +176,7 @@ ybufjsahbnuijfkhbnsaijufhasbunioklfhniosaufhnisoajuçdhnoksjdbnfjikoldnfc ujloak
         text-align: center;
     }
      #calcular{
-        width: 50%;
+        width: 40%;
         margin-bottom: 5px;
         display: block;
         height: 40px;
