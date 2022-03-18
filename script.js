@@ -36,6 +36,9 @@
         var rslt = document.getElementById("resultado")
         rslt.onclick = rslt.style.display= "block"
 
+        if(adultos <= 0, criancas <= 0, horas <= 0)
+        alert("Preencha os campos corretamente!")
+        
     }
 
 
@@ -76,6 +79,8 @@
         
        
     }
+
+    //Alerta de preencher os campos
 
 
 
