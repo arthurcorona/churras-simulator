@@ -22,7 +22,7 @@
 
         let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas)
         let qtdTotalCerveja = cervejaPP(horas) * adultos
-        let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
+        let qtdTotalBebidas = bebidaPP(horas) * adultos / 2 + (bebidaPP(horas)/ 2 * criancas)
         let qtdTotalCarvao = carvaoPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
 
 
