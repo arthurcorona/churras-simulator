@@ -22,7 +22,7 @@
 
         let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas)
         let qtdTotalCerveja = cervejaPP(horas) * adultos
-        let qtdTotalBebidas = bebidaPP(horas) * adultos / 2 + (bebidaPP(horas)/ 2 * criancas)
+        let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas) / 2
         let qtdTotalCarvao = carvaoPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
 
 
@@ -36,7 +36,7 @@
         var rslt = document.getElementById("resultado")
         rslt.onclick = rslt.style.display= "block"
 
-        if(adultos <= 0, criancas <= 0, horas <= 0)
+        if(adultos <= 0, horas <= 0)
         alert("Atualize a página e preencha os campos corretamente!")
         
 
