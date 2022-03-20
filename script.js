@@ -42,7 +42,6 @@
 
     }
 
-
         //calculando as horas de churras
     function carnePP(horas){
         if(horas >= 6){
