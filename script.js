@@ -3,6 +3,8 @@
 // refri/água - 1000ml p/pessoa || +6hrs 1500ml
 // 1500 de carvao p/ pessoa
 
+// Lembrando que os adultos que bembem cerveja tambem estao bebendo outras bebidas, entao os inclui! 
+
 // crianças valem por 0,5
 
         //linkando o script nos IDs no HTML
