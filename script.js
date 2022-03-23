@@ -24,8 +24,8 @@
 
         let qtdTotalCarne = carnePP(horas) * adultos + (carnePP(horas)/ 2 * criancas)
         let qtdTotalCerveja = cervejaPP(horas) * adultos
-        let qtdTotalBebidas = bebidaPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas) / 2
-        let qtdTotalCarvao = carvaoPP(horas) * adultos + (bebidaPP(horas)/ 2 * criancas)
+        let qtdTotalBebidas = bebidaPP(horas) + (bebidaPP(horas)/ 2 * criancas) / 2
+        let qtdTotalCarvao = qtdTotalCarne
 
 
         resultado.innerHTML += `<p><img src="./assets/meat.png" type="image/png" width="20px"></img> ${Math.ceil(qtdTotalCarne/1000)} Kg de Carne <br>`
