@@ -5,3 +5,4 @@
 
 ### Te mostra o que vai precisar baseado na quantidade de pessoas e horas do churras, apenas precisa preencher os campos.
 
+<img src="./assets/gif.gif">
